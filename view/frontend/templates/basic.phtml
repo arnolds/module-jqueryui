@@ -1,0 +1,18 @@
+<?php /** @var $block \Magento\Framework\View\Element\Template */ ?>
+
+<div class="block jqueryui-basic">
+    <h2><?= __('Basic widget'); ?></h2>
+    <p><?= __('See console for the output.'); ?></p>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        ".jqueryui-basic": {
+            "Koz_JqueryUI/js/basic": {
+                "message": "Hello, World!"
+            }
+        }
+    }
+</script>
+
+

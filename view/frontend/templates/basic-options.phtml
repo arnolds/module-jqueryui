@@ -1,0 +1,18 @@
+<?php /** @var $block \Magento\Framework\View\Element\Template */ ?>
+
+<div class="block jqueryui-basic-options">
+    <h2><?= __('Basic widget with options.'); ?></h2>
+    <p><?= __('The color can be configured.'); ?></p>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        ".jqueryui-basic-options": {
+            "Koz_JqueryUI/js/basic-options": {
+                "color": "green"
+            }
+        }
+    }
+</script>
+
+

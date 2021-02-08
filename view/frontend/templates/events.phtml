@@ -1,0 +1,20 @@
+<?php /** @var $block \Koz\JqueryUI\Block\Product\ListProduct */ ?>
+
+<div class="block jqueryui-events">
+    <h2><?= __('Reacting to events.'); ?></h2>
+    <p><?= __('See console for extra output.'); ?></p>
+    <div class="autocomplete-status"></div>
+    <input type="text" class="autocomplete" />
+</div>
+
+<script type="text/x-magento-init">
+    {
+        ".jqueryui-events .autocomplete": {
+            "Koz_JqueryUI/js/events": {
+                "source": <?= $block->getNames(); ?>
+            }
+        }
+    }
+</script>
+
+

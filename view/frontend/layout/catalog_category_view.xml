@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block name="koz.jqueryui.basic" template="Koz_JqueryUI::basic.phtml" before="-" />
+            <block name="koz.jqueryui.basic.options" template="Koz_JqueryUI::basic-options.phtml" after="koz.jqueryui.basic" />
+            <block name="koz.jqueryui.existing" template="Koz_JqueryUI::existing.phtml" after="koz.jqueryui.basic.options" />
+            <block name="koz.jqueryui.getter.setter" template="Koz_JqueryUI::getter-setter.phtml" after="koz.jqueryui.existing" />
+            <block class="Koz\JqueryUI\Block\Product\ListProduct" name="koz.jqueryui.events" template="Koz_JqueryUI::events.phtml" after="koz.jqueryui.getter.setter" />
+            <block name="koz.jqueryui.extend" template="Koz_JqueryUI::extend.phtml" after="koz.jqueryui.events" />
+            <block name="koz.jqueryui.override" template="Koz_JqueryUI::override.phtml" after="koz.jqueryui.extend" />
+        </referenceContainer>
+    </body>
+</page>
