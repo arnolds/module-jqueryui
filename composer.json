@@ -1,5 +1,5 @@
 {
-    "name": "koz/module-jqueryui",
+    "name": "koz/module-jquery-ui",
     "description": "Magento 2 module demonstrating usage of jQuery UI",
     "require": {
         "php": "~7.3.0||~7.4.0",

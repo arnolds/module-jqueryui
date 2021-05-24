@@ -7,8 +7,8 @@ Magento 2 module demonstrating the usage of jQuery UI.
 Place module under `app/code/Koz/JqueryUI`, or install through Composer.
 
 ```
-$ composer config repositories.koz-jqueryui vcs https://github.com/arnolds/module-jqueryui
-$ composer require koz/module-jquerui
+$ composer config repositories.koz-jqueryui vcs https://github.com/arnolds/module-jquery-ui
+$ composer require koz/module-jquery-ui
 ```
 
 Then enable the module:
